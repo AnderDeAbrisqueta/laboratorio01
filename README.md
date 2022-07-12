@@ -34,14 +34,17 @@ A tener en cuenta:
 
 ## CARGA DE LA APLICACIÓN
 
--Inicialmente srán 10 cursos, se espera que alcancen 100 en un año y máximo 1000 e n cinco años.
--Un curso tendrá entre 1-20 vídeos máximos.
+<ol>
+<li>Inicialmente srán 10 cursos, se espera que alcancen 100 en un año y máximo 1000 e n cinco años.
+<li>Un curso tendrá entre 1-20 vídeos máximos.
+</ol>
 
 ## RENDIMIENTO/CONSULTAS
 
--Debe mostrar los últimos 5 vídeos de cada categoría (frontend, backend y devops), aquí se puede delegar en el servidor web que cacheé está página.
--La página en la que se muestra el detalle de un curso se va a visualizar a menudo.
--Es crítico que la búsqueda sea rápida.
--La página en la que se va a visualizar un vídeo de un curso se verá a menudo.
--La página del autor se espera que no se consuma tan a menudo.
--Hay una opción
+<ol>
+<li>Debe mostrar los últimos 5 vídeos de cada categoría (frontend, backend y devops), aquí se puede delegar en el servidor web que cacheé está página.
+<li>La página en la que se muestra el detalle de un curso se va a visualizar a menudo.
+<li>Es crítico que la búsqueda sea rápida.
+<li>La página en la que se va a visualizar un vídeo de un curso se verá a menudo.
+<li>La página del autor se espera que no se consuma tan a menudo.
+<li>Hay una opción para ver la página con la biografía del autor, esta página no va a ser muy visitada.
