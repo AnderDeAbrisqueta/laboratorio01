@@ -34,10 +34,8 @@ A tener en cuenta:
 
 ## CARGA DE LA APLICACIÓN
 
-<ol>
-<li>Inicialmente srán 10 cursos, se espera que alcancen 100 en un año y máximo 1000 e n cinco años.
-<li>Un curso tendrá entre 1-20 vídeos máximos.
-</ol>
+- Inicialmente srán 10 cursos, se espera que alcancen 100 en un año y máximo 1000 e n cinco años.
+- Un curso tendrá entre 1-20 vídeos máximos.
 
 ## RENDIMIENTO/CONSULTAS
 
