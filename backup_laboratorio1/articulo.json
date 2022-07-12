@@ -1,0 +1,112 @@
+[
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000000"
+        },
+        "_guidArticulo": "f931e8b0-f3b1-48ef-a570-ad42f11d287d",
+        "nombreArticulo": "Casual Sex?",
+        "urlArticulo": "http://slashdot.org/turpis/enim/blandit/mi/in/porttitor/pede.html?felis=vulputate&fusce=luctus&posuere=cum&felis=sociis&sed=natoque&lacus=penatibus&morbi=et",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000001"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000002"
+        },
+        "_guidArticulo": "6e1f008f-052a-4f06-b4c7-3ded825257c6",
+        "nombreArticulo": "King and I, The",
+        "urlArticulo": "http://macromedia.com/rutrum/nulla/tellus.png?suscipit=dapibus&a=nulla&feugiat=suscipit&et=ligula&eros=in&vestibulum=lacus&ac=curabitur&est=at&lacinia=ipsum&nisi=ac&venenatis=tellus&tristique=semper&fusce=interdum&congue=mauris&diam=ullamcorper&id=purus&ornare=sit&imperdiet=amet&sapien=nulla&urna=quisque&pretium=arcu&nisl=libero&ut=rutrum&volutpat=ac&sapien=lobortis&arcu=vel&sed=dapibus",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000003"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000004"
+        },
+        "_guidArticulo": "5d91d737-7bd1-4846-8530-5380f23002f2",
+        "nombreArticulo": "Phase IV",
+        "urlArticulo": "https://networksolutions.com/imperdiet/sapien.png?aliquet=a&pulvinar=odio&sed=in&nisl=hac&nunc=habitasse&rhoncus=platea&dui=dictumst&vel=maecenas&sem=ut&sed=massa&sagittis=quis&nam=augue&congue=luctus&risus=tincidunt&semper=nulla&porta=mollis&volutpat=molestie&quam=lorem&pede=quisque&lobortis=ut&ligula=erat&sit=curabitur&amet=gravida&eleifend=nisi&pede=at&libero=nibh&quis=in&orci=hac&nullam=habitasse&molestie=platea&nibh=dictumst",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000005"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000006"
+        },
+        "_guidArticulo": "36329f5d-36ef-47ea-b198-7fae87318428",
+        "nombreArticulo": "One in a Million: The Ron LeFlore Story",
+        "urlArticulo": "https://slashdot.org/felis/donec/semper/sapien/a/libero.aspx?ornare=praesent&consequat=blandit&lectus=lacinia&in=erat&est=vestibulum&risus=sed&auctor=magna&sed=at&tristique=nunc&in=commodo&tempus=placerat&sit=praesent&amet=blandit&sem=nam&fusce=nulla&consequat=integer&nulla=pede&nisl=justo&nunc=lacinia&nisl=eget&duis=tincidunt&bibendum=eget&felis=tempus&sed=vel&interdum=pede&venenatis=morbi&turpis=porttitor&enim=lorem&blandit=id&mi=ligula&in=suspendisse&porttitor=ornare&pede=consequat&justo=lectus&eu=in&massa=est&donec=risus&dapibus=auctor&duis=sed&at=tristique&velit=in&eu=tempus&est=sit&congue=amet&elementum=sem&in=fusce&hac=consequat&habitasse=nulla&platea=nisl&dictumst=nunc&morbi=nisl&vestibulum=duis&velit=bibendum&id=felis&pretium=sed&iaculis=interdum&diam=venenatis&erat=turpis&fermentum=enim&justo=blandit&nec=mi&condimentum=in&neque=porttitor&sapien=pede&placerat=justo&ante=eu&nulla=massa&justo=donec&aliquam=dapibus&quis=duis&turpis=at&eget=velit&elit=eu&sodales=est&scelerisque=congue&mauris=elementum&sit=in&amet=hac&eros=habitasse&suspendisse=platea&accumsan=dictumst&tortor=morbi&quis=vestibulum&turpis=velit&sed=id&ante=pretium&vivamus=iaculis&tortor=diam&duis=erat&mattis=fermentum&egestas=justo&metus=nec&aenean=condimentum&fermentum=neque&donec=sapien&ut=placerat&mauris=ante&eget=nulla&massa=justo&tempor=aliquam",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000007"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000008"
+        },
+        "_guidArticulo": "e1e80e89-db02-410b-8f70-a01ce9b32654",
+        "nombreArticulo": "One Small Hitch",
+        "urlArticulo": "http://moonfruit.com/eleifend.aspx?tempor=vestibulum&convallis=proin&nulla=eu&neque=mi&libero=nulla&convallis=ac&eget=enim&eleifend=in&luctus=tempor&ultricies=turpis&eu=nec&nibh=euismod&quisque=scelerisque&id=quam&justo=turpis&sit=adipiscing&amet=lorem&sapien=vitae&dignissim=mattis&vestibulum=nibh&vestibulum=ligula&ante=nec&ipsum=sem&primis=duis&in=aliquam&faucibus=convallis&orci=nunc&luctus=proin&et=at&ultrices=turpis&posuere=a&cubilia=pede&curae=posuere&nulla=nonummy&dapibus=integer&dolor=non&vel=velit&est=donec&donec=diam&odio=neque&justo=vestibulum",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000009"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae432900000a"
+        },
+        "_guidArticulo": "6880a629-0d78-47aa-ad6d-1910fe3034e8",
+        "nombreArticulo": "Deadly Trap, The (La maison sous les arbres)",
+        "urlArticulo": "https://fastcompany.com/sapien/arcu/sed.js?suspendisse=nulla&potenti=neque&cras=libero&in=convallis&purus=eget&eu=eleifend&magna=luctus&vulputate=ultricies&luctus=eu&cum=nibh&sociis=quisque&natoque=id&penatibus=justo&et=sit&magnis=amet&dis=sapien&parturient=dignissim&montes=vestibulum&nascetur=vestibulum&ridiculus=ante&mus=ipsum&vivamus=primis&vestibulum=in&sagittis=faucibus&sapien=orci&cum=luctus&sociis=et&natoque=ultrices&penatibus=posuere&et=cubilia&magnis=curae&dis=nulla&parturient=dapibus&montes=dolor&nascetur=vel&ridiculus=est&mus=donec&etiam=odio&vel=justo&augue=sollicitudin&vestibulum=ut&rutrum=suscipit&rutrum=a&neque=feugiat&aenean=et&auctor=eros&gravida=vestibulum&sem=ac&praesent=est&id=lacinia&massa=nisi&id=venenatis&nisl=tristique&venenatis=fusce&lacinia=congue&aenean=diam&sit=id&amet=ornare&justo=imperdiet&morbi=sapien&ut=urna&odio=pretium&cras=nisl&mi=ut&pede=volutpat",
+        "curso": {
+            "$oid": "62cabf7afc13ae432900000b"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae432900000c"
+        },
+        "_guidArticulo": "9ebdd069-53ec-4136-b694-977ecbdc2f2c",
+        "nombreArticulo": "Too Many Girls",
+        "urlArticulo": "http://histats.com/integer/a/nibh/in/quis/justo/maecenas.png?phasellus=mi&sit=pede&amet=malesuada&erat=in&nulla=imperdiet&tempus=et&vivamus=commodo&in=vulputate&felis=justo&eu=in&sapien=blandit&cursus=ultrices&vestibulum=enim&proin=lorem&eu=ipsum&mi=dolor&nulla=sit&ac=amet&enim=consectetuer&in=adipiscing",
+        "curso": {
+            "$oid": "62cabf7afc13ae432900000d"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae432900000e"
+        },
+        "_guidArticulo": "6dc88d70-5aa3-41bd-83b4-eb51841eb288",
+        "nombreArticulo": "Tim's Vermeer",
+        "urlArticulo": "https://cloudflare.com/nibh.js?turpis=in&enim=felis&blandit=donec&mi=semper&in=sapien&porttitor=a&pede=libero",
+        "curso": {
+            "$oid": "62cabf7afc13ae432900000f"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000010"
+        },
+        "_guidArticulo": "67b719bf-2b97-4194-bea9-33ba4290efe7",
+        "nombreArticulo": "Where the Buffalo Roam",
+        "urlArticulo": "http://discuz.net/condimentum/curabitur/in/libero/ut/massa.jpg?aenean=purus&lectus=phasellus&pellentesque=in&eget=felis&nunc=donec&donec=semper&quis=sapien&orci=a&eget=libero&orci=nam&vehicula=dui&condimentum=proin&curabitur=leo&in=odio&libero=porttitor&ut=id&massa=consequat&volutpat=in&convallis=consequat&morbi=ut&odio=nulla&odio=sed&elementum=accumsan&eu=felis&interdum=ut&eu=at&tincidunt=dolor&in=quis&leo=odio&maecenas=consequat&pulvinar=varius&lobortis=integer&est=ac&phasellus=leo&sit=pellentesque&amet=ultrices&erat=mattis&nulla=odio&tempus=donec&vivamus=vitae&in=nisi&felis=nam&eu=ultrices&sapien=libero&cursus=non&vestibulum=mattis&proin=pulvinar&eu=nulla&mi=pede&nulla=ullamcorper&ac=augue&enim=a&in=suscipit&tempor=nulla&turpis=elit&nec=ac&euismod=nulla&scelerisque=sed&quam=vel&turpis=enim&adipiscing=sit&lorem=amet&vitae=nunc&mattis=viverra&nibh=dapibus&ligula=nulla&nec=suscipit&sem=ligula&duis=in&aliquam=lacus&convallis=curabitur&nunc=at&proin=ipsum&at=ac&turpis=tellus&a=semper&pede=interdum&posuere=mauris&nonummy=ullamcorper&integer=purus&non=sit&velit=amet&donec=nulla&diam=quisque&neque=arcu&vestibulum=libero&eget=rutrum&vulputate=ac&ut=lobortis&ultrices=vel&vel=dapibus&augue=at&vestibulum=diam&ante=nam&ipsum=tristique&primis=tortor&in=eu&faucibus=pede",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000011"
+        }
+    },
+    {
+        "idArticulo": {
+            "$oid": "62cabf7afc13ae4329000012"
+        },
+        "_guidArticulo": "ee7603e9-8ace-432b-aad4-15531f84b567",
+        "nombreArticulo": "Pilgrim, The",
+        "urlArticulo": "https://unicef.org/libero/convallis/eget.jsp?nec=tortor&dui=id&luctus=nulla&rutrum=ultrices&nulla=aliquet&tellus=maecenas&in=leo&sagittis=odio&dui=condimentum&vel=id&nisl=luctus&duis=nec&ac=molestie&nibh=sed&fusce=justo&lacus=pellentesque&purus=viverra&aliquet=pede&at=ac&feugiat=diam&non=cras&pretium=pellentesque&quis=volutpat&lectus=dui&suspendisse=maecenas&potenti=tristique&in=est&eleifend=et&quam=tempus&a=semper&odio=est&in=quam&hac=pharetra&habitasse=magna&platea=ac&dictumst=consequat&maecenas=metus&ut=sapien&massa=ut&quis=nunc&augue=vestibulum&luctus=ante&tincidunt=ipsum&nulla=primis&mollis=in&molestie=faucibus&lorem=orci&quisque=luctus&ut=et&erat=ultrices&curabitur=posuere&gravida=cubilia&nisi=curae&at=mauris&nibh=viverra&in=diam&hac=vitae&habitasse=quam&platea=suspendisse&dictumst=potenti&aliquam=nullam&augue=porttitor&quam=lacus&sollicitudin=at&vitae=turpis&consectetuer=donec&eget=posuere&rutrum=metus&at=vitae&lorem=ipsum",
+        "curso": {
+            "$oid": "62cabf7afc13ae4329000013"
+        }
+    }
+]

@@ -1,0 +1,814 @@
+{
+	"tables": {
+		"70cde2cc-5a84-44ba-a1b3-4d8209fc6124": {
+			"id": "70cde2cc-5a84-44ba-a1b3-4d8209fc6124",
+			"visible": true,
+			"name": "curso",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "5b26a216-283b-4c25-8949-5aa2b4342c12",
+					"name": "_idCurso",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "9729db9b-4780-4eb4-bfe9-a14511df8265",
+					"name": "nombreCurso",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "e7864ae0-6a8c-42ce-9cc5-9c587e49ce55",
+					"name": "fechaPublicación",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "5435aa26-4873-453c-a23e-886391306c79",
+					"name": "duracionCurso",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "d353412c-662d-48c5-a3a7-d87084f76853",
+					"name": "autor",
+					"datatype": "10db8e59-0080-4b76-97f8-2c54d10bf538",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8d58f7e4-3453-4cf0-89d3-aae7a430534e",
+					"name": "tematica",
+					"datatype": "458bbc97-fd3e-4d39-aed8-ff3e698ecca4",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "0a4c40e4-560d-4df4-8b9a-45c1230ed5cd",
+					"name": "video",
+					"datatype": "771b5f39-8de9-49cc-8921-231df7c89610",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [
+				"a905b116-0a57-4d1a-bfc0-9269e7551dd0"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "579ff93e-757d-414e-ab72-658193ccb278",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "ea7049e1-158d-40ab-9740-124c3ea1af90",
+							"colid": "5b26a216-283b-4c25-8949-5aa2b4342c12"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"autoIndexId": true
+		},
+		"10db8e59-0080-4b76-97f8-2c54d10bf538": {
+			"id": "10db8e59-0080-4b76-97f8-2c54d10bf538",
+			"visible": true,
+			"name": "autor",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "c4d40fc7-da98-4bf9-9b9c-dddb57cb3d1c",
+					"name": "_idAutor",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a9c9f544-8353-4dba-86da-f200451115d2",
+					"name": "nombreAutor",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "fbd4a2b5-24d8-4e7c-bb85-75b0d87707a2",
+					"name": "biografia",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "53c4ddc0-809c-447b-941c-707ea8d7b370",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "74341980-7cd1-4d46-ae7e-81e05424c4cb",
+							"colid": "c4d40fc7-da98-4bf9-9b9c-dddb57cb3d1c"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"c6fee7ba-4f08-4bc8-bac6-29ef216c3ae8": {
+			"id": "c6fee7ba-4f08-4bc8-bac6-29ef216c3ae8",
+			"visible": true,
+			"name": "video",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "0fcc95d2-571d-4987-8993-ac389b7becc5",
+					"name": "_idVideo",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "0d7c9a06-b78a-4b3c-af69-fd75e851f721",
+					"name": "_guidVideo",
+					"datatype": "string",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "6e575c6e-80a8-40a8-bde8-77fcb6f4ef0f",
+					"name": "nombreVideo",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "e63a6382-d641-4a5a-9432-b4ae7e3d02e4",
+					"name": "urlVideo",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a24be33c-0753-43c9-92ed-69d1005f605d",
+					"name": "duracionVideo",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "6ec55361-ba89-4842-a832-ab2319a4edb1",
+					"name": "autor",
+					"datatype": "10db8e59-0080-4b76-97f8-2c54d10bf538",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "709202ef-c4ee-4706-a429-9d25c4187af4",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "2f09992c-a845-4591-b2b8-b31f92e9a2c3",
+							"colid": "0fcc95d2-571d-4987-8993-ac389b7becc5"
+						},
+						{
+							"id": "1a4fbbe3-40eb-4243-a819-944dc54beb9d",
+							"colid": "0d7c9a06-b78a-4b3c-af69-fd75e851f721"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"autoIndexId": true
+		},
+		"458bbc97-fd3e-4d39-aed8-ff3e698ecca4": {
+			"id": "458bbc97-fd3e-4d39-aed8-ff3e698ecca4",
+			"visible": true,
+			"name": "tematica",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "388db4d0-dce7-4ba0-9a29-61a60131ea38",
+					"name": "_idTematica",
+					"datatype": "bool",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "66c602e8-6ffc-42d6-a83c-cf362193e23b",
+					"name": "devops",
+					"datatype": "bool",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b19eeea2-c925-4dce-ab16-00a154ace9d2",
+					"name": "frontend",
+					"datatype": "bool",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "2d924019-6527-4f63-bb00-2993dd8a0931",
+					"name": "backend",
+					"datatype": "bool",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "cd6832ce-0931-42ab-9d15-12cac9546e60",
+					"name": "otra",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "9ae83db2-3790-4292-8d2b-789a37d633ba",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "8fdb88d5-f55e-4b60-a334-70e997622a39",
+							"colid": "388db4d0-dce7-4ba0-9a29-61a60131ea38"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"d39c5307-9e70-42dd-8aa8-eae8d19fbc23": {
+			"id": "d39c5307-9e70-42dd-8aa8-eae8d19fbc23",
+			"visible": true,
+			"name": "articulo",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "97f6524a-6a0c-4001-8180-99b16cf561e1",
+					"name": "_idArticulo",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "e1d7b2a3-6bf2-414d-b0e7-30ef99608d7b",
+					"name": "_guidArticulo",
+					"datatype": "string",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8b07c3af-fe77-4446-a867-08a1c83eb0b8",
+					"name": "nombreArticulo",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3c31c9c4-832e-4b10-96b0-30e056348905",
+					"name": "urlArticulo",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "39827157-041f-4234-a94e-67a9489c75f3",
+					"name": "curso",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "curso"
+				}
+			],
+			"relations": [
+				"a905b116-0a57-4d1a-bfc0-9269e7551dd0"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "9584149f-b9b2-4e0e-aa81-0d30a152615c",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "1a3a5c17-be3a-44c0-baa5-1eed0b5c6f56",
+							"colid": "97f6524a-6a0c-4001-8180-99b16cf561e1"
+						},
+						{
+							"id": "39013c26-7bf3-4b78-ba90-4e2da73f1758",
+							"colid": "e1d7b2a3-6bf2-414d-b0e7-30ef99608d7b"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"771b5f39-8de9-49cc-8921-231df7c89610": {
+			"id": "771b5f39-8de9-49cc-8921-231df7c89610",
+			"visible": true,
+			"name": "video",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "865a4f5c-28d3-4803-9dd9-97258dd21186",
+					"name": "_idVideo",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ec929dcc-0ab1-4d82-bd45-7b191fe78322",
+					"name": "_guidVideo",
+					"datatype": "string",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "f8d4b05f-f08a-4a23-96e7-d0c57d5bed8d",
+					"name": "nombreVideo",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "93d9b261-fefb-4bfa-96e3-58c990f7577b",
+					"name": "urlVideo",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "1121d206-e632-45d0-a97c-761f834f03ed",
+					"name": "duracionVideo",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8af4158e-4142-4bd2-8607-88079a0b4c1b",
+					"name": "autor",
+					"datatype": "10db8e59-0080-4b76-97f8-2c54d10bf538",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "f6ecffde-0c44-496f-9993-ee7f9e75db3b",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "f1c2b3cf-3453-4523-a77c-4b63cdb145b8",
+							"colid": "865a4f5c-28d3-4803-9dd9-97258dd21186"
+						},
+						{
+							"id": "f32badd6-29d6-42f9-b438-1e3ecb5eb74b",
+							"colid": "ec929dcc-0ab1-4d82-bd45-7b191fe78322"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		}
+	},
+	"relations": {
+		"a905b116-0a57-4d1a-bfc0-9269e7551dd0": {
+			"id": "a905b116-0a57-4d1a-bfc0-9269e7551dd0",
+			"visible": true,
+			"name": "curso_articulo",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "579ff93e-757d-414e-ab72-658193ccb278",
+			"parent": "70cde2cc-5a84-44ba-a1b3-4d8209fc6124",
+			"child": "d39c5307-9e70-42dd-8aa8-eae8d19fbc23",
+			"c_mp": "true",
+			"c_mch": "false",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "d42fcbda-5246-49a4-9943-b862f7248904",
+					"parentcol": "5b26a216-283b-4c25-8949-5aa2b4342c12",
+					"childcol": "39827157-041f-4234-a94e-67a9489c75f3"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "Laboratorio 1 - Modelado documental",
+		"id": "84e8b859-f48e-45d2-87d0-0ef0feea33de",
+		"activeDiagram": "829ef4b8-c1a1-4309-affe-d5faf8e92075",
+		"desc": "",
+		"path": "",
+		"type": "MONGODB",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 4,
+			"minor": 6,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"stickyParentIsDisplayed": false,
+		"def_coltopk": true,
+		"def_validationLevel": "na",
+		"def_validationAction": "na",
+		"def_collation": "",
+		"def_others": "",
+		"writeFileParam": false,
+		"lastSaved": "Sat Jul 09 2022 17:01:20 GMT+0200 (hora de verano de Europa central)"
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"829ef4b8-c1a1-4309-affe-d5faf8e92075": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "829ef4b8-c1a1-4309-affe-d5faf8e92075",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"70cde2cc-5a84-44ba-a1b3-4d8209fc6124": {
+					"referencedItemId": "70cde2cc-5a84-44ba-a1b3-4d8209fc6124",
+					"x": 45,
+					"y": 36,
+					"gHeight": 459,
+					"gWidth": 254,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"10db8e59-0080-4b76-97f8-2c54d10bf538": {
+					"referencedItemId": "10db8e59-0080-4b76-97f8-2c54d10bf538",
+					"x": 606,
+					"y": 259,
+					"gHeight": 81,
+					"gWidth": 210,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"c6fee7ba-4f08-4bc8-bac6-29ef216c3ae8": {
+					"referencedItemId": "c6fee7ba-4f08-4bc8-bac6-29ef216c3ae8",
+					"x": 616,
+					"y": 33,
+					"gHeight": 189,
+					"gWidth": 232,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"458bbc97-fd3e-4d39-aed8-ff3e698ecca4": {
+					"referencedItemId": "458bbc97-fd3e-4d39-aed8-ff3e698ecca4",
+					"x": 370,
+					"y": 251,
+					"gHeight": 117,
+					"gWidth": 194,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"d39c5307-9e70-42dd-8aa8-eae8d19fbc23": {
+					"referencedItemId": "d39c5307-9e70-42dd-8aa8-eae8d19fbc23",
+					"x": 360,
+					"y": 421,
+					"gHeight": 117,
+					"gWidth": 222,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"771b5f39-8de9-49cc-8921-231df7c89610": {
+					"referencedItemId": "771b5f39-8de9-49cc-8921-231df7c89610",
+					"x": 349,
+					"y": 36,
+					"gHeight": 189,
+					"gWidth": 232,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd"
+		}
+	},
+	"order": []
+}
