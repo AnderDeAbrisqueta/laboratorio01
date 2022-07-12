@@ -31,3 +31,17 @@ A tener en cuenta:
 <li>En principio los vídeos no se van a compartir entre diferentes cursos (aunque sería una amplicacíon interesante del ejercicio.
 <li>Hay una opción para ver la página con la biografía del autor, esta página no va a ser muy visitada.
 </ol>
+
+## CARGA DE LA APLICACIÓN
+
+-Inicialmente srán 10 cursos, se espera que alcancen 100 en un año y máximo 1000 e n cinco años.
+-Un curso tendrá entre 1-20 vídeos máximos.
+
+## RENDIMIENTO/CONSULTAS
+
+-Debe mostrar los últimos 5 vídeos de cada categoría (frontend, backend y devops), aquí se puede delegar en el servidor web que cacheé está página.
+-La página en la que se muestra el detalle de un curso se va a visualizar a menudo.
+-Es crítico que la búsqueda sea rápida.
+-La página en la que se va a visualizar un vídeo de un curso se verá a menudo.
+-La página del autor se espera que no se consuma tan a menudo.
+-Hay una opción
