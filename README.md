@@ -14,4 +14,4 @@ Este repositorio desarrolla el laboratorio del módulo 1 del Bootcamp Backend - 
 
 ## SITEMAP DE LA APP
 
-<img src="./images/sitemap.jpg">
+<img src="./images/sitemap.png">
