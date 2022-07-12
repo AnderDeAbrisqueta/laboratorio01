@@ -67,4 +67,4 @@ A tener en cuenta:
 
 ## MAPEO DE LAS ENTIDADES A DIAGRAMA ENTIDAD/RELACIÓN Y MODELADO
 
-- Modelado [relacional] (./modelos/relationalModel.dmm)
+- Modelado [relacional] (../relationalModel.dmm)
