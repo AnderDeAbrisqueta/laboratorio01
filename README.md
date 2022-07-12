@@ -7,7 +7,7 @@ Este repositorio desarrolla el laboratorio del módulo 1 del Bootcamp Backend - 
 ## OBJETIVOS
 
   - Realizar los diagramas del modelo de datos.
-  - Realizar el Markdown con la explicaciónde por qué se ha realizado dicho modelado, patrones aplicados y razón.
+  - Realizar el Markdown con la explicación de por qué se ha realizado dicho modelado, patrones aplicados y razón.
   - Backup de una base de datos con datos de ejemplo.
 
 ## SITEMAP DE LA APP
@@ -64,3 +64,7 @@ A tener en cuenta:
 - Autores
 - Vídeos
 - Artículos
+
+## MAPEO DE LAS ENTIDADES A DIAGRAMA ENTIDAD/RELACIÓN Y MODELADO
+
+- Modelado [relacional] (./modelos/relationalModel.dmm)
