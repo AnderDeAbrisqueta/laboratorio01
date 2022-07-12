@@ -6,4 +6,8 @@ Este repositorio desarrolla el laboratorio del módulo 1 del Bootcamp Backend - 
 
 ## OBJETIVO
 
--Realizar los diagramas del modelo de datos ()
+<ol>
+  <li>Realizar los diagramas del [modelo de datos] (./modelos).
+  <li>Realizar el Markdown con la explicaciónde por qué se ha realizado dicho modelado, patrones aplicados y razón.
+  <li>Backup de una base de datos con datos de ejemplo.
+</ol>
