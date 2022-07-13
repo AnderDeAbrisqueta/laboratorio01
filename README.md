@@ -67,4 +67,10 @@ A tener en cuenta:
 
 ## MAPEO DE LAS ENTIDADES A DIAGRAMA ENTIDAD/RELACIÓN Y MODELADO
 
+Se realizó el modelado Entidad/Relación el cual se puede observar en el archivo relationalMode.dmm que se encuentra dentro del directorio de **modelos** de este repositorio. Luego se realizó el modelado documental, que se muestra en el archivo documentalModel.dmm, ubicado en la misma ruta. Para este último, se usaron los siguientes patrones:
+
+- **Subset pattern**, para incluir los primeros vídeos en la página cursos.
+- **Extended ref**, para anidar los documentos como los de autores y temática dentro de la colección de cursos.
+
+
   
